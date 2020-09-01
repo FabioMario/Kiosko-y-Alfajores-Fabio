@@ -3,6 +3,8 @@ using System;
 namespace Expert_SRP
 {
     public class Kiosco 
+    // No cumple con SRP porque  no solo dice si puedes comprar o no, si no que tambien hace la conversion a pesos esa misma clase
+    // Alfajor deberia de ser la responable en calcular su precio por que es la experta en la informacion necesaria para hacerlo ya que la contiene
     {
         public Boolean PuedeComprar(Alfajor a, Double dinero, String moneda) 
         {
