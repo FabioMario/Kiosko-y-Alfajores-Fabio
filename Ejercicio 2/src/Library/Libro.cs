@@ -3,6 +3,7 @@
 namespace SRP
 {
     public class Libro
+    /*Si cumple con SRP*/
     {
 
         public string Titulo { get ; }
